@@ -70,7 +70,7 @@
 
 
             <!-- Botão -->
-            <div class="mt-4 animado lagbut">
+            <div class="mt-4 animado">
               <a href="https://pepper.com.br/checkout/index.html?p=15388&o=7951" class="a-btn">
                 <span class="span-btn">Comprar agora mesmo!</span>
               </a>
@@ -324,22 +324,7 @@ Você precisa estar logado para comentar.
 			border-radius: 4px;
 		}</style>
 
-		<style>.lagbut{display:none;}</style> 
-		<script type="text/javascript">
-		var tmin = 9;
-		var tseg = 8;
-		  
-		var tpitch = (tmin * 60000) + (tseg * 1000);
-		setTimeout('show()', tpitch);
-		console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
-		function show(){
-		var list = document.getElementsByClassName('lagbut');
-		for (var i = 0; i < list.length; i++) {
-			list[i].style.visibility = 'visible';
-			list[i].style.display = 'block';
-			}
-		}
-		</script>
+		
 		<style>@keyframes pulse {
 		  0% {    transform: scaleX(1)  }
 		  50% {    transform: scale3d(1.05, 1.05, 1.05)  }
